@@ -1,0 +1,9 @@
+<?php
+/** @var \BrandX\QuoteViewer\Block\CartId $block */
+?>
+<?php if ($block->getCartId()) : ?>
+<div class="quote-viewer page-main">
+    <span class="label"><?= $block->escapeHtml(__('Your Cart ID')) ?></span>
+    <span id="cart-id" class="cart-id"><?= $block->getCartId() ?></span>
+</div>
+<?php endif; ?>

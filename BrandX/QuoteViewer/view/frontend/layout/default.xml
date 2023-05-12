@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head></head>
+    <body>
+        <referenceContainer name="page.top">
+            <block class="BrandX\QuoteViewer\Block\CartId" name="view_cart_id" template="BrandX_QuoteViewer::cart_id.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

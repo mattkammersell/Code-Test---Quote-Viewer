@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="BrandX_QuoteViewer::index" title="View Customer Cart" translate="title" module="BrandX_QuoteViewer"
+             sortOrder="90" parent="Magento_Customer::customer" action="quoteviewer/cart/index/"
+             resource="BrandX_QuoteViewer::index"/>
+
+    </menu>
+</config>
